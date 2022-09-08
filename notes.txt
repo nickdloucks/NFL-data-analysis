@@ -1,0 +1,8 @@
+= Table.AddColumn(#"Change Type", "game_id", each Text.Combine({[team2], "@", [team1],Date.ToText([date])}, " "))
+
+
+=============== syntax ref^^^
+
+Text.Combine({"W", [team2]}, " ")
+Text.Combine({"L", [team2]}, " ")
+Text.Combine({"T", [team1], [team2]}, " ")
