@@ -6,3 +6,6 @@
 Text.Combine({"W", [team2]}, " ")
 Text.Combine({"L", [team2]}, " ")
 Text.Combine({"T", [team1], [team2]}, " ")
+
+
+different seasons could be handled using muti-index in pandas or similar instead of separate tables for each year
